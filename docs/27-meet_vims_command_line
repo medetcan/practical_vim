@@ -1,0 +1,10 @@
+* Command-Line allows us to execute ex command, a search pattern, or an expression
+:[range]delete[x] -> delete specified lines of texts into the register x
+:[range]yank[x] -> copy specified lines of text into the register x 
+:[line]put[x] -> paste specified content from the register below to the specified line
+:[range]copy{address} -> Copy the specified lines to below the line specified by {address}
+:[range]move{address} -> Move the specified lines to below the line specified by {address}
+:[range]join -> Join the specified lines
+:[range]normal{commands} -> execute normal mode commands on each specified line
+:[range]substitute/{pattern}/{string}/[flags] -> Search and replace tge occurences of the text on specified lines
+:[range]global/{pattern}/[cmd] -> Execute the Ex command [cmd] on all specified lines where the {pattern} matches
