@@ -1,0 +1,8 @@
+* [range]global/{pattern}/[cmd] command allows us to execute an ex command for every line that matches the pattern
+* [range]vglobal/{pattern}/[cmd] command allows us to execute an ex command for every line that does not match the given pattern
+* We can save our complex ex commands in a file and then we can use it on multiple files all we need to do populate the file with series of ex commands seperated with line breaks
+* We can use our vim script on multiple files
+* :source command allows us to execute the vim script
+* We can open multiple files with vim. We can see the each opened file with the ":args" command
+* We can go to a next file using ":next" command ":previous" does the opposite of the ":next" command
+* We can use ":argdo" command the execute an ex command on series of files

@@ -1,0 +1,7 @@
+* We can search through command line history while in command line mode using <Up> and <Down> arrow keys
+* Vim also records our search history if we press "/" to bring up the search prompt, we can also scroll backward and forward through previous searches with the <Up> and <Down> keys
+* We can open up the command line window using "q:" in normal mode
+* We can select a command from command line window than execute it by pressing <CR>
+* "q/" open the history of searches
+* <C-f> switch from command line mode to command line windows
+

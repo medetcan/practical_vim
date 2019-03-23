@@ -1,0 +1,5 @@
+* . command can be used to repeat the last change but for more complex taks it has its shortcomings instead we can use @: for these kind of complex tasks
+* We can repeat last ex command using "@:" 
+* We can repeat the last ex command from normal mode invoking @@ command
+* We can go back and forth on buffers using "bprevious" and "bnext"
+* <C-o> goes back to the previous record in the jump list in normal mode if we were to try using "bprevious" command this can mess up  the "@:" command when we need it because :bprevios becomes the last ex command!

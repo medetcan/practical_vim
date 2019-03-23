@@ -1,0 +1,6 @@
+* copy command allows us to duplicate one or more lines from one part of the document to another
+* move command allows us to move one or more lines from one part of the document to anoter
+* format of the copy command as shown [range]copy{address} "t" command is synonmous with the "copy" command you can use t in place of the copy command 
+* copy or t command doesn't use the register when you use yank in normal mode its content also placed into the register
+* You can use :t command to duplicate a line when you don't want to overwrite the current value in the default register
+* :[range]move{address} this is the format for move command and we can also shorten the syntax using "m" where it is in place of "move"

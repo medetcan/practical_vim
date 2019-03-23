@@ -1,0 +1,4 @@
+* We can use the <Tab> key to autocomplete the commands at the command line prompt
+* The <C-d> command asks Vim to reveal a list of possible completions based on the given command
+* <Tab> key cycles through the list of possible suggestion going forward. 
+* <S-Tab> key cycles through the list of possible suggestion going backward 

@@ -1,0 +1,2 @@
+* We can execute normal mode commands on series of consecutive lines in command line mode using ":normal"
+* ":normal" is most useful when used in combination with one of Vim's repeat commands either . for simple repeats or @q for more complex taks

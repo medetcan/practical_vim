@@ -1,0 +1,10 @@
+* From Vim's command line we can execute any shell command by prefixing them with bang symbol "!"
+* On Vim's command "%" stands for the current file name
+* You can access to shell using ":shell" on NeoVim this option is deprecated in favor of ":terminal" command  
+* Ctrl-z command suspends the process that is currently running inside the bash's context we can return back it to foreground using "fg" command
+* "read" ! {cmd} command lets us direct standard output into a buffer.
+* "write" ! {cmd} commands uses contents of the buffer as a standard input for a bash command
+* The :!{cmd} command takes on a different meaning when it's given a range. The lines specified by [range] are passed as standard input for the {cmd} then outputs from {cmd} overwrites the original contents of [range]
+* Vim provides a convenient shortcut for setting the range of a :[range]!{filter} command such as this. The !{motion} operator command drops us into Command-line mode and prepopulates the [range] with lines covered by the specified {motion}
+* :[range]write !{cmd} Execute {cmd} in the shell with [range] lines as standard input
+* :[range]!{filter} filter given range of lines through external program and then overwrite the contents of the given lines with the output of the external program

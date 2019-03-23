@@ -1,0 +1,3 @@
+* We can insert the current "word" from the active buffer onto our command prompt using <C-r><C-w>
+* We can insert the current "WORD" under the cursor onto to our command prompt using <C-r><C-a> WORD differs from word WORD takes into account punctiation
+
