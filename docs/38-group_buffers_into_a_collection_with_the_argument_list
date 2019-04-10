@@ -1,0 +1,9 @@
+* vim's argument list is easily managed and can be useful for grouping together a collection of files for easy navigation.
+* We can run an ex command on each item in the argument list using the :argdo command.
+* Don't take the :args command literally this command enhanced since its original creation and some new capabilities added to :args command.
+* We can populate the buffer list using **:args {arglist}**
+* To populate the buffer list using :args command we should give it a list of files as an argument either directly by given file name or with pattern matching
+* "*" character will match one or more characters. 
+* "**" will match one or more characters while traversing sub directories.
+* we can populate the arglist using backticks. Vim executes the text inside the backtick characters in the shell. We can execute any other bash command to populate the argslist vim's :args command is flexible enough to do that.
+* We can traverse the files in the argument list using :next and :prev commands or we can use :argdo to execute the same command on each buffer.

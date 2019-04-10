@@ -1,0 +1,10 @@
+* Buffers are in memory representation of corresponding physical files. Every change you make happens on buffers
+* :ls command gives us a listing of all available buffers that have been loaded into memory
+* :bnext command switches us to next buffer in the list
+* :bprevious command switches us to previous buffer in the list 
+* You can switch between previous and current buffer using <C-^> || <C-6>
+* Use :bfirst for accessing to first loaded buffer and :blast for accessing to last loaded buffer
+* Numbers are assigned to each buffer we can select a buffer by a number :b {number}
+* We can also choose a buffer combining :buffer command with a name. Name should uniquely match one of the buffer's file path 
+* The :bufdo command allows us to execute an Ex command in all of the buffers listed by :ls 
+* We can delete a buffer using :bdelete command this does not delete original content.
