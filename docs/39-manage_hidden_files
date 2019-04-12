@@ -1,0 +1,12 @@
+* When a buffer has been modified, Vim gives it special treatment to ensure that we don't accidentally quit the editor without saving our changes.
+* When a buffer has been modified we can see the modified buffer using :ls command.
+* Vim indicates the changed buffer by denoting it with a "+" sign 
+* When we switch over modified buffer vim raises an error indicating that there are unsaved changes we can forcefully change buffer appendind "!" symbol to the command.
+* When we forcefully change over from the modified buffer vim saves it.
+* We can exit vim without dealing with the modified buffers. if you want to exit vim without reviewing modified buffer you can use ":qall!" command this will exit saving buffers to the disk.
+* ":w[rite]" write the contents of the buffer to the disk.
+* "e[dit]!" revert changes.
+* "qa[ll]!" close all windows without saving to the disk.
+* "wa[ll]" write all modified buffers to disk.
+* we can stop vim from nagging us using "set hidden" command this will prevent any warning when switching any modified buffer.
+*  The ‘hidden’ setting makes it possible to use :argdo, :bufdo, and :cfdo to change a collection of buffers with a single command without stopping at any modified buffer.  
