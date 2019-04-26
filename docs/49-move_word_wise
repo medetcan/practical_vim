@@ -1,0 +1,9 @@
+* Vim makes a distinction between words whether or not it has a punctuation
+* When you move by a word vim ignores punctuation but when you move by WORD punctuation is considered.
+* w -> move forward by one word
+* W -> move forward by one WORD
+* b -> move backward by one word
+* B -> move backward by one WORD
+* e -> forward to end of the next word
+* ge -> backward to end of previous word
+

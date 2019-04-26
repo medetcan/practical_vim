@@ -1,0 +1,12 @@
+* Unlike many text editors, Vim makes a distinction between real lines and display lines!
+* Easiest way to tell the difference between real lines and display lines that real lines have line number.
+* h,l,j,k keys are operate on real lines. When you need to move around between display lines you should prefix these keys with the "g" command
+* gj -> move down by display lines
+* gk -> move up by display lines
+* gh -> move left by display lines
+* gl -> move right by display lines
+* ^ -> move cursor to the first non blank character of real line
+* g^ -> move cursor to the first non blank character of display line
+* $ -> end of real line
+* g$ -> end of display line
+
