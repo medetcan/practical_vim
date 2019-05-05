@@ -1,0 +1,10 @@
+* We can spawn a vim process using directory path rahter than specifiying a file name for it.
+* netrw plugin that comes with the vim installiation allows us to explore file system when you invoke vim with a directory path netrw takes control and shows the content of the given directory.
+* We can select directories or a file by using usual navigation keys.
+* We can load a file by pressing enter on selected file or if it is a directory that is selected we can further travel down selected directory.
+* :E command allows us to explore the contents of the directory where the active buffer resides.
+* :E command is very powerful we can combine it with the split windows commands.
+* :Sexplore command opens the file explorer in a horizontal split window.
+* :Vexplore command opens the file explorer in a vertical split window.
+* netrw plugin allows us to read and write files across a network!!! Woaaaa!
+

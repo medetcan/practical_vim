@@ -1,0 +1,3 @@
+* The :find command allows us to open a file by its name without having to provide a fully qualified path.
+* The :find command finds the specified content by traversing the path variable.
+* The path option allows us to specify a set of directories inside of which Vim will search when the :find command is invoked.

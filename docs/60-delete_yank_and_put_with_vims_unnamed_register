@@ -1,0 +1,11 @@
+* When we deal with cut, copy and paste we work on in vim's terminology registers
+* **xp** normal mode command can be considered as takin transpose of two chracter
+* **ddp** normal mode command allows us to transpose the order of two lines of text
+* **yy** command allows us to copy the whole line into the unnamed register which current cursor stands
+* Vim has multiple register that can be used as a container
+* **"** is a unnamed register
+* **0** is a yank register
+* Vim's delete command is equivalent to cut operation. That is, it copies the specified text into a register then removes it from the document 
+* You can realy delete a text using delete command by combining it with the black hole(**_**) register from which nothing returns
+
+

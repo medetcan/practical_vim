@@ -1,0 +1,8 @@
+* We can check the status of a file using <C-g>
+* If we don't have a permission to write to the file. We can invoke sudo command within vim to write to it. 
+* To write a read only file use ":w !sudo tee % > /dev/null"
+* :w command sends the content of the current buffer as a standart input. 
+* "!sudo tee %" external tee command is invoked with root privilages and standart input from w feeded into the "!sudo tee %" command.
+* "%" is a wildcard that correspondes to a full path of the current buffer!
+* "!sudo tee % > /dev/null" /dev/null part discards the standart output of external command tee.
+* "w !sudo tee % > /dev/null" write to a file with root privilage invoking external command!

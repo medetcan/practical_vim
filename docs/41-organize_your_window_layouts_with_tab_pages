@@ -1,0 +1,14 @@
+* Vim allows us to organize our workspace with multiple tabs.
+* We can group windows into different tabs.
+* Vim's tab page structure different from other editors. In vim a tab page is a container that can hold a collection of windows. 
+* :lcd {path} command allows us to set the current working directory.
+* :lcd command applies to a window but we can use :windo lcd {path} command to set working directory for all windows that are part of the same tab page.
+* :tabedit {file} command creates a new tab page. We can omit file argument and if we omit file argument vim creates a new tab page containing an empty buffer.
+* if active tab page has more then one window then we can move the current focused window to a new tab page using <C-w>T command.
+* tabc[lose] closes the current tab page.
+* tabo[nly] keeps the active tab page while closing other tab pages.
+* Tabs are numbered starting from one.
+* :tabn[ext] {N} or {N}gt means go to tab N.
+* tabn[ext] or gt swithes to the next tab page.
+* tabp[revious] gT switches to the previous tab page.
+* We can rearrange tab pages by using :tabmove[N] Ex command. if N is 0 it moves the active tab to the begining if N is not given as an argument then vim move active tab page to the end.

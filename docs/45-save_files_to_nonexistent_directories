@@ -1,0 +1,4 @@
+* Vim can happily create a buffer for a non existent directory and a file.
+* When it comes to writing buffer to the disk vim will gives us back an error because file and directory not exist.
+* We can easily solve this problem by using ":!mkdir -p %:h command!" this command file create the appropiate structure.
+* <C-g> normal mode command echoes the name and the current status of the current file.

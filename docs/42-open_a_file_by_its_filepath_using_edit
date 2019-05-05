@@ -1,0 +1,2 @@
+* :edit command allows us to open a file by specifiying absolute or relative path.
+* :edit {file} command can accept a filepath relative to the working directory.

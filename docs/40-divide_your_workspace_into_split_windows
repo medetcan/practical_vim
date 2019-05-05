@@ -1,0 +1,19 @@
+* Vim allow us to open multiple buffers and view them side by side with split windows
+* To split the window horizontally use <C-w>-s
+* To split the window vertically use <C-w>-v
+* You can split windows also using commad mode commands such as;
+	* :sp[lit] {file}
+	* :vsp[lit] {file}
+* <C-w>w changes focus of the window by cycling between them.		
+* <C-w>h chage focus to the left window.
+* <C-w>j change focus to the below window.
+* <C-w>k change focus to the above window.
+* <C-w>l change focus to the right window.
+* :clo[se] or <C-w>c close the active window.
+* :on[ly] or <C-w>o keep only the active window.
+* Vim provides a set of commands for resizing and rearranging windows.
+	* <C-w>_ Maximize the height of the active window.
+	* <C-w>= Equalize width and height of the all windows.
+	* <C-w>| Maximize the width of the active window.
+	* [N]<C-w>_ Set the active window height to N rows.
+	* [N]<C-w>| Set the active window width to N columns.
