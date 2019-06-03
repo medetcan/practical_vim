@@ -1,0 +1,7 @@
+* command "f{char}" is used for line wise search, if there is a matched char cursor moves on to the matched character.
+* command "t{char}" is used for line wise search, if there is a matched char cursor moves one character before from the matched character.
+* command "F{char}" is reverse of the command "f{char}"
+* command "T{char}" is reverse of the command "t{char}"
+* ";" move next occurence of the char.
+* "," move next occurence of the char in reverse order.
+

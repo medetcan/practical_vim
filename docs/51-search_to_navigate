@@ -1,0 +1,5 @@
+* You can search whole contents of the document using "/{chars}" command.
+* "n" command move cursor to next occurence of the searched word.
+* "N" command works in similar way but in reverse order.
+* To enable highlight search feature use ":set hlsearch" command.
+* Search command works both in operator pending mode and visual mode.
